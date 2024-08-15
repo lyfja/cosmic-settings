@@ -1,6 +1,6 @@
 app = COSMIC Einstellungen
 
-unknown = Unknown
+unknown = Unbekannt
 
 number = { $number }
 
@@ -11,8 +11,8 @@ wired = Kabelgebunden
 
 ## Networking: Online Accounts
 
-online-accounts = Onlinekontos
-    .desc = Kontos hinzufügen, IMAP und SMTP, Firmenzugang
+online-accounts = Onlinekonten
+    .desc = Konten hinzufügen, IMAP und SMTP, Firmenzugang
 
 ## Desktop
 
@@ -67,8 +67,8 @@ mode-and-colors = Modus und Farben
 recent-colors = Zuletzt verwendete Farben
 reset-to-default = Auf Standard zurücksetzen
 rgb = RGB
-window-hint-accent = Hintfarbe von aktiven Fenstern
-window-hint-accent-toggle = Akzentfarbe des Themas als aktive Hintfarbe verwenden
+window-hint-accent = Hinweisfarbe des aktivens Fensters
+window-hint-accent-toggle = Akzentfarbe des Themas als aktive Signalfarbe verwenden
 
 auto-switch = Automatisch zwischen Hell- und Dunkelmodus wechseln
     .sunrise = Wechselt bei Sonnenaufgang zum Hellmodus
@@ -105,7 +105,7 @@ style = Stil
 
 # interface density left out for now
 window-management-appearance = Fenstermanagement
-    .active-hint = Hintgröße von aktiven Fenstern
+    .active-hint = Hinweisgröße des aktiven Fensters
     .gaps = Lücken zwischen gekachelten Fenstern
 
 ## Desktop: Notifications
@@ -284,6 +284,8 @@ sound-alerts = Benachrichtigungen
 
 sound-applications = Apps
     .desc = Applautstärke und -einstellungen
+
+profile = Profil
 
 ## Power
 
