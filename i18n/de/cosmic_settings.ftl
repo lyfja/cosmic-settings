@@ -68,7 +68,7 @@ recent-colors = Zuletzt verwendete Farben
 reset-to-default = Auf Standard zurücksetzen
 rgb = RGB
 window-hint-accent = Hinweisfarbe des aktivens Fensters
-window-hint-accent-toggle = Akzentfarbe des Themas als aktive Signalfarbe verwenden
+window-hint-accent-toggle = Akzentfarbe des Themas als aktive Hinweisfarbe verwenden
 
 auto-switch = Automatisch zwischen Hell- und Dunkelmodus wechseln
     .sunrise = Wechselt bei Sonnenaufgang zum Hellmodus
@@ -77,15 +77,15 @@ auto-switch = Automatisch zwischen Hell- und Dunkelmodus wechseln
     .next-sunset = Wechselt beim nächsten Sonnenuntergang zum Dunkelmodus
 
 container-background = Containerhintergrund
-    .desc-detail = Containerhintergrundfarbe wird für Navigations-Sidebars, Dialoge, und ähnliche Widgets verwendet. Standardmäßig wird diese automatisch vom Anwendungs- oder Fensterhintergrund übernommen.
+    .desc-detail = Containerhintergrundfarbe wird für Navigations-Sidebars, Dialoge und ähnliche Widgets verwendet. Standardmäßig wird diese automatisch vom Anwendungs- oder Fensterhintergrund übernommen.
     .reset = Auf automatisch zurücksetzen
-    .desc = Primäre Containerfarbe wird für Navigations-Sidebars, Dialoge, und ähnliche Widgets verwendet.
+    .desc = Primäre Containerfarbe wird für Navigations-Sidebars, Dialoge und ähnliche Widgets verwendet.
 
 control-tint = Komponententönung einstellen
-    .desc = Wird für Hintergründe von Standardknöpfen, Suchfeldern, Textfeldern, und ähnlichen Komponenten verwendet.
+    .desc = Wird für Hintergründe von Standardknöpfen, Suchfeldern, Textfeldern und ähnlichen Komponenten verwendet.
 
 frosted = Milchglaseffekt auf Systemoberflächen
-    .desc = Wendet Unschärfeeffekte bei Panel, Dock, Applets, Launcher, und der Anwendungsübersicht an.
+    .desc = Wendet Unschärfeeffekte bei Panel, Dock, Applets, Launcher und der Anwendungsübersicht an.
 
 experimental-settings = Experimentelle Einstellungen
 
@@ -111,7 +111,7 @@ window-management-appearance = Fenstermanagement
 ## Desktop: Notifications
 
 notifications = Benachrichtigungen
-    .desc = Nicht stören, Nachrichten bei gesperrtem Bildschirm, und Einstellungen für Anwendungen.
+    .desc = Nicht stören, Nachrichten bei gesperrtem Bildschirm und Einstellungen für Anwendungen.
     
 ## Desktop: Panel
 
@@ -144,7 +144,7 @@ panel-behavior-and-position = Verhalten und Positionen
     .autohide = Panel automatisch verstecken
     .dock-autohide = Dock automatisch verstecken
     .position = Position auf dem Bildschirm
-    .display = Auf dem Bildschirm anzeigen
+    .display = Anzeigen auf Bildschirm
 
 panel-style = Stil
     .anchor-gap = Lücke zwischen Panel und Bildschirmecken
@@ -218,7 +218,7 @@ color = Farbe
     .temperature = Farbtemperatur
 
 display = Bildschirme
-    .desc = Bildschirme, Grafikumschaltung, und Nachtmodus
+    .desc = Bildschirme, Grafikumschaltung und Nachtmodus
     .arrangement = Bildschirmanordnung
     .arrangement-desc = Ziehe Bildschirme, um sie neu anzuordnen.
     .enable = Bildschirm aktivieren
@@ -257,7 +257,7 @@ scheduling = Zeitplanung
 
 dialog = Dialog
     .title = Diese Bildschirmeinstellungen beibehalten?
-    .keep-changes = Änderungen beibehalten
+    .keep-changes = Einstellungen beibehalten
     .change-prompt = Geänderte Einstellungen werden in { $time } Sekunden automatisch zurückgesetzt.
     .revert-settings = Änderungen zurücksetzen
 
@@ -269,14 +269,14 @@ sound = Sound
 sound-output = Ausgabe
     .volume = Ausgabelautstärke
     .device = Ausgabegerät
-    .level = Ausgangspegel
+    .level = Ausgabepegel
     .config = Konfiguration
     .balance = Balance
 
 sound-input = Eingabe
-    .volume = Eingangslautstärke
+    .volume = Eingabelautstärke
     .device = Eingabegerät
-    .level = Eingangspegel
+    .level = Eingabepegel
 
 sound-alerts = Benachrichtigungen
     .volume = Benachrichtigungslautstärke
@@ -489,7 +489,7 @@ mouse = Maus
 
 click-behavior = Klickverhalten
     .click-finger = Sekundärer Klick mit zwei Fingern und Mittelklick mit drei Fingern
-    .button-areas = Sekundärer Klick in der Ecke unten rechts und Mittelklick unten in der Mitte
+    .button-areas = Sekundärer Klick unten rechts in der Ecke und Mittelklick unten in der Mitte
 
 pinch-to-zoom = Zum Zoomen ziehen
     .desc = Verwende zwei Finger, um bei unterstützen Anwendungen in den Inhalt hinein zu zoomen.
@@ -553,7 +553,7 @@ about = Über
     .desc = Gerätename, Hardwareinfo, Voreinstellungen des Betriebssystems.
 
 about-device = Gerätename
-    .desc = Name, der anderen Geräten bei der Verbindung über Bluetooth oder Netzwerk angezeigt wird.
+    .desc = Name, der anderen Geräten bei der Verbindung über Bluetooth oder das Netzwerk angezeigt wird.
     
 about-hardware = Hardware
     .model = Hardwaremodell
