@@ -52,7 +52,7 @@ appearance = Aussehen
     .desc = Akzentfarben und Themen.
 
 accent-color = Akzentfarbe
-app-background = App- oder Fensterhintergrund
+app-background = Anwendungs- oder Fensterhintergrund
 auto = Automatisch
 close = Schließen
 color-picker = Farbwähler
@@ -77,7 +77,7 @@ auto-switch = Automatisch zwischen Hell- und Dunkelmodus wechseln
     .next-sunset = Wechselt beim nächsten Sonnenuntergang zum Dunkelmodus
 
 container-background = Containerhintergrund
-    .desc-detail = Containerhintergrundfarbe wird für Navigations-Sidebars, Dialoge, und ähnliche Widgets verwendet. Standardmäßig wird diese automatisch vom App- oder Fensterhintergrund übernommen.
+    .desc-detail = Containerhintergrundfarbe wird für Navigations-Sidebars, Dialoge, und ähnliche Widgets verwendet. Standardmäßig wird diese automatisch vom Anwendungs- oder Fensterhintergrund übernommen.
     .reset = Auf automatisch zurücksetzen
     .desc = Primäre Containerfarbe wird für Navigations-Sidebars, Dialoge, und ähnliche Widgets verwendet.
 
@@ -85,15 +85,15 @@ control-tint = Komponententönung einstellen
     .desc = Wird für Hintergründe von Standardknöpfen, Suchfeldern, Textfeldern, und ähnlichen Komponenten verwendet.
 
 frosted = Milchglaseffekt auf Systemoberflächen
-    .desc = Wendet Unschärfeeffekte bei Panel, Dock, Applets, Launcher, und der App-Übersicht an.
+    .desc = Wendet Unschärfeeffekte bei Panel, Dock, Applets, Launcher, und der Anwendungsübersicht an.
 
 experimental-settings = Experimentelle Einstellungen
 
-enable-export = Wende dieses Thema für GNOME-Apps an.
-    .desc = Nicht alle Toolkits unterstützen das automatische Umschalten. Nicht-GNOME Apps benötigen womöglich einen Neustart nach dem Themenwechsel.
+enable-export = Wende dieses Thema für GNOME-Anwendungen an.
+    .desc = Nicht alle Toolkits unterstützen das automatische Umschalten. Nicht-GNOME-Anwendungen benötigen womöglich einen Neustart nach dem Themenwechsel.
 
 icon-theme = Symbolthema
-    .desc = Wendet ein anderes Symbolset für Apps an.
+    .desc = Wendet ein anderes Symbolset für Anwendungen an.
 
 text-tint = Interface-Texttönung
     .desc = Farbe, welche für das Ermitteln von Interface-Textfarben mit genügend Kontrast auf verschiedenen Oberflächen verwendet wird.
@@ -111,7 +111,7 @@ window-management-appearance = Fenstermanagement
 ## Desktop: Notifications
 
 notifications = Benachrichtigungen
-    .desc = Nicht stören, Nachrichten bei gesperrtem Bildschirm, und Einstellungen für Apps.
+    .desc = Nicht stören, Nachrichten bei gesperrtem Bildschirm, und Einstellungen für Anwendungen.
     
 ## Desktop: Panel
 
@@ -166,7 +166,7 @@ panel-missing = Panel-Konfiguration fehlt
 ## Desktop: Dock
 
 dock = Dock
-    .desc = Leiste mit angepinnten Apps im App-Tray und weiteren Applets.
+    .desc = Leiste mit angepinnten Anwendungen im Anwendungsbereich und weiteren Applets.
 
 ## Desktop: Window management
 
@@ -175,8 +175,8 @@ window-management = Fenstermanagement
 
 super-key = Supertaste
     .launcher = Launcher öffnen
-    .workspaces = Arbeitsflächen-Übersicht öffnen
-    .applications = App-Übersicht öffnen
+    .workspaces = Arbeitsflächenübersicht öffnen
+    .applications = Anwendungsübersicht öffnen
 
 window-controls = Fenstersteuerungen
     .minimize = Minimieren-Knopf anzeigen
@@ -197,7 +197,7 @@ workspaces-multi-behavior = Multi-Monitor-Verhalten
     .span = Arbeitsflächen über alle Bildschirme spannen
     .separate = Bildschirme haben seperate Arbeitsflächen
 
-workspaces-overview-thumbnails = Arbeitsflächen-Übersichtsthumbnails
+workspaces-overview-thumbnails = Arbeitsflächenübersichtsthumbnails
     .show-number = Arbeisflächenanzahl anzeigen
     .show-name = Arbeitsflächenname anzeigen
 workspaces-orientation = Arbeitsflächenausrichtung
@@ -282,8 +282,8 @@ sound-alerts = Benachrichtigungen
     .volume = Benachrichtigungslautstärke
     .sound = Benachrichtigungssound
 
-sound-applications = Apps
-    .desc = Applautstärke und -einstellungen
+sound-applications = Anwendungen
+    .desc = Anwendungslautstärke und -einstellungen
 
 profile = Profil
 
@@ -445,7 +445,7 @@ move-windows = Fenster verschieben
     .send-to-next-workspace = Fenster zur nächsten Arbeitsfläche verschieben
 
 system-shortcut = System
-    .app-library = App-Übersicht öffnen
+    .app-library = Anwendungsübersicht öffnen
     .brightness-down = Bildschirmhelligkeit verringern
     .brightness-up = Bildschirmhelligkeit erhöhen
     .home-folder = Persönlichen Ordner öffnen
@@ -464,7 +464,7 @@ system-shortcut = System
     .volume-raise = Lautstärke der Audioausgabe erhöhen
     .web-browser = Webbrowser öffnen
     .window-switcher = Zwischen geöffneten Fenstern wechseln
-    .workspace-overview = Arbeitsflächen-Übersicht öffnen
+    .workspace-overview = Arbeitsflächenübersicht öffnen
 
 window-tiling = Fensterkachelung
     .horizontal = Horizontale Ausrichtung einstellen
@@ -492,7 +492,7 @@ click-behavior = Klickverhalten
     .button-areas = Sekundärer Klick in der Ecke unten rechts und Mittelklick unten in der Mitte
 
 pinch-to-zoom = Zum Zoomen ziehen
-    .desc = Verwende zwei Finger, um bei unterstützen Apps in den Inhalt hinein zu zoomen.
+    .desc = Verwende zwei Finger, um bei unterstützen Anwendungen in den Inhalt hinein zu zoomen.
 
 tap-to-click = Zum Klicken tippen
     .desc = Aktiviert Ein-Finger-Tippen für primären Klick, Zwei-Finger-Tippen für sekundären Klick und Drei-Finger-Tippen für Mittelklick.
@@ -514,8 +514,8 @@ gestures = Gesten
 switch-between-windows = Zwischen Fenstern wechseln
 switch-to-next-workspace = Zur nächsten Arbeitsfläche wechseln
 switch-to-prev-workspace = Zur vorherigen Arbeitsfläche wechseln
-open-application-library = App-Übersicht öffnen
-open-workspaces-view = Arbeitsflächen-Übersicht öffnen
+open-application-library = Anwendungsübersicht öffnen
+open-workspaces-view = Arbeitsflächenübersicht öffnen
 
 ## Time & Language
 
